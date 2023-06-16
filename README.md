@@ -20,9 +20,9 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 The following link demonstrates the application functionality
 
 ## Installation 
-Express-handlebars
-MySQL2
-Sequelize
+Express-handlebars,
+MySQL2,
+Sequelize,
 bscript package
 
 ## Test
