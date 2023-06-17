@@ -1,0 +1,199 @@
+:root {
+    --c1: #5d053c;
+    --c2: #d45d8f;
+    --c3: #b68296;
+    --c4: #f4deee;
+}
+
+header,
+footer {
+    background-color: var(--c1);
+    color: var(--c4);
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--c4);
+}
+
+main {
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Arial';
+    background-image: url('../');
+    background-position: center;
+    background-repeat: none;
+    object-fit: contain;
+}
+
+
+#pageTitle {
+    font-family: 'Press Start 2P';
+    color: var(--c3);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.nav-links {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin: 2px;
+    padding: 5px 15px;
+}
+
+.blogpost, .blog-entry {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--c1);
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgb(59, 59, 59);
+}
+
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    background-color: var(--c2);
+    border-bottom: 3px solid var(--c1);
+    color: var(--c4);
+    padding: 20px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.contributorInfo {
+    font-style: italic;
+}
+
+.blogDescription {
+    background-color: var(--c4);
+    padding: 20px 30px;
+}
+
+.descText {
+    line-height: 3rem;
+    margin-bottom: 0;
+}
+
+.edit-btn {
+    padding: 0px 5px;
+}
+
+.modal-content {
+    border: 1px solid var(--c4);
+}
+
+.modal-footer, .modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--c1);
+    color: var(--c4);
+}
+
+.modal-footer .btn {
+    background-color: var(--c4);
+    color: var(--c1);
+}
+
+.card-body {
+    border: none;
+    margin-bottom: 0;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--c2);
+    color: var(--c4);
+    align-items: center;
+    padding: 20px;
+    border: 5px solid var(--c1);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.cta-button {
+    background-color: var(--c1);
+    color: var(--c4);
+    margin: 5px;
+}
+
+footer {
+    bottom: 0px;
+    color: var(--c4);
+}
+
+.login-row, .signup-row {
+    border: 5px solid var(--c1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.row-title {
+    background-color: var(--c2);
+    color: var(--c4);
+    padding: 30px;
+}
+
+@media screen and (max-width: 526px) {
+
+    .left-col {
+        border: none;
+    }
+
+    .pageTitle {
+        font-size: 2rem;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
