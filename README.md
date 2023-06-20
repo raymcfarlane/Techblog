@@ -17,12 +17,15 @@ I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 ## Usage
+- [Heroku Deployed Application](https://)
+
 The following link demonstrates the application functionality
+![TechBlogpage]()
 
 ## Installation 
-Express-handlebars,
-MySQL2,
-Sequelize,
+Express-handlebars
+MySQL2
+Sequelize
 bscript package
 
 ## Test
