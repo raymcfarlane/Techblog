@@ -49,10 +49,8 @@ h6 {
 }
 
 body {
+    background-color: #b68296;
     font-family: 'Arial';
-    background-image: url('../');
-    background-position: center;
-    background-repeat: none;
     object-fit: contain;
 }
 
